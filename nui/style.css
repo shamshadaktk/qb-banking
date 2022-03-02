@@ -1,0 +1,149 @@
+@font-face {
+    src: url("fonts/Akrobat-Regular.otf");
+    font-family: "Akrobat Regular";
+}
+* {
+    font-family: "Akrobat Regular" !important;
+    font-size: 20px;
+}
+
+body {
+    background: transparent !important;
+    margin-top: 80px;
+}
+
+#bankingContainer {
+    background: linear-gradient(#00ffb300, #067caa, #00ffd5) !important;
+    border-radius: 7px;
+    min-height: 800px;
+    max-height: 800px;
+    display: none;
+}
+
+#ATMContainer {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 20px;
+    min-height: 800px;
+    max-height: 800px;
+    display: none;
+    border: 2px solid red;
+}
+
+.statement:hover {
+    background: rgba(150, 149, 149, 0.5) !important;
+}
+
+#v-pills-tabContent,
+#v-pills-tabContent-atm {
+    overflow-y: scroll;
+    min-height: 100%;
+}
+
+#v-pills-tabContent::-webkit-scrollbar-track,
+#v-pills-tabContent-atm::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: none;
+}
+
+#v-pills-tabContent::-webkit-scrollbar-thumb,
+#v-pills-tabContent-atm::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: none;
+}
+
+#v-pills-tabContent::-webkit-scrollbar,
+#v-pills-tabContent-atm::-webkit-scrollbar {
+    width: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: transparent
+}
+
+.title {
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    border-left: 2px solid red;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #49505700;
+    background-color: #01fdb3;
+    background-clip: padding-box;
+    border: 1px solid #01fdb3;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0)!important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: .25rem;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.content {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: rgb(255, 255, 255);
+    background-color: #fdd345;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: #067eaa;
+}
+
+.btn-primary:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0 251 212);
+}
+
+.btn-secondary {
+    color: rgb(255, 255, 255);
+    background-color:#00ffd5;
+}
+
+.btn-secondary:hover {
+    color: #00ffd5;
+    background-color:#067caa;
+}
+
+.small,
+small {
+    font-size: 95%;
+    font-weight: bolder;
+}
+
+#savingsBalance {
+    color: #28a745;
+}
