@@ -76,3 +76,5 @@ Config.BankLocations = { -- Bank locations
 
 Config.cardTypes = { "visa", "mastercard"} -- Debit card types (When requesting a debit card it gives randomly one of these.)
 ```
+##ScreenShots
+![QBCore](https://user-images.githubusercontent.com/28916136/156407662-28e3d3cf-85b5-440a-b592-99006ae1706c.png)
